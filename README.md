@@ -1,2 +1,2 @@
 # booking-powerapp
-Booking Application Built with Microsoft PowerApps
+Booking Application built with Microsoft PowerApps
