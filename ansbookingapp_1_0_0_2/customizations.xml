@@ -1,0 +1,196 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows>
+    <Workflow WorkflowId="{58a76aa4-b8ac-ea11-a812-002248006440}" Name="PowerApp -&gt; Update Space Capacity">
+      <JsonFileName>/Workflows/PowerApp-UpdateSpaceCapacity-58A76AA4-B8AC-EA11-A812-002248006440.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="PowerApp -&gt; Update Space Capacity" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{62d2457b-1fae-ea11-a812-002248006440}" Name="PowerApp -&gt; Get Available Spots">
+      <JsonFileName>/Workflows/PowerApp-GetAvailableSpots-62D2457B-1FAE-EA11-A812-002248006440.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="PowerApp -&gt; Get Available Spots" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{9ad43cd7-81b1-ea11-a812-002248006440}" Name="PowerApp -&gt; Reserve Spot">
+      <JsonFileName>/Workflows/PowerApp-ReserveSpot-9AD43CD7-81B1-EA11-A812-002248006440.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="PowerApp -&gt; Reserve Spot" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{e87262fe-56b2-ea11-a812-002248006440}" Name="Recurrence -&gt; Update Spots Not Sanitised">
+      <JsonFileName>/Workflows/Recurrence-UpdateSpotsNotSanitised-E87262FE-56B2-EA11-A812-002248006440.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Recurrence -&gt; Update Spots Not Sanitised" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{1aaab143-f7b2-ea11-a812-002248006440}" Name="Recurrence -&gt; Check Spot Is Sanitised">
+      <JsonFileName>/Workflows/Recurrence-CheckSpotIsSanitised-1AAAB143-F7B2-EA11-A812-002248006440.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Recurrence -&gt; Check Spot Is Sanitised" />
+      </LocalizedNames>
+    </Workflow>
+  </Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <CanvasApps>
+    <CanvasApp>
+      <Name>ans_bookingmanagerapp_82878</Name>
+      <AppVersion>2020-06-24T11:32:42Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>3.20063.13.0</CreatedByClientVersion>
+      <MinClientVersion>3.20063.13.0</MinClientVersion>
+      <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"ff0b6363-3e55-4075-9529-eaef47b8b33a","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.20063.13","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>rgba(104, 101, 171, 1)</BackgroundColor>
+      <DisplayName>Booking Manager App</DisplayName>
+      <Description>ANS Booking Application</Description>
+      <CommitMessage xsi:nil="true"></CommitMessage>
+      <Publisher xsi:nil="true"></Publisher>
+      <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
+      <ConnectionReferences>{"176cda1e-8312-48fd-8ef3-a000c97b8647":{"id":"/providers/microsoft.powerapps/apis/shared_sql","displayName":"SQL Server","iconUri":"https://connectoricons-prod.azureedge.net/sql/icon_1.0.1356.2027.png","dataSources":["[dbo].[ans_booking_buildings]","[dbo].[ans_booking_cleaner]","[dbo].[ans_booking_space_options]","[dbo].[ans_booking_spots]","[dbo].[ans_booking_notes]","[dbo].[ans_booking_users]","[dbo].[ans_booking_reservations]","[dbo].[ans_bookings_reservations_view]","[dbo].[ans_booking_spaces]"],"dependencies":[],"dependents":["5fe90133-1f9c-43c9-8b36-bb3554d8c66e","256d9e7b-9bc8-4b6f-9331-9dccd5682d4e","8d18c5d8-1b5d-4c22-ac57-7af167438d04","75f7132e-c62c-4ec7-9fd8-cd78ecd5eda0"],"parameterHints":{},"isOnPremiseConnection":false,"sharedConnectionId":"04b05290-f95b-4326-a0e9-ab0c930e5517","bypassConsent":false,"dataSets":{"pp-booking-app-sql-srv.database.windows.net,pp-booking-app-sql-db":{"dataSources":{"[dbo].[ans_booking_buildings]":{"tableName":"[dbo].[ans_booking_buildings]"},"[dbo].[ans_booking_cleaner]":{"tableName":"[dbo].[ans_booking_cleaner]"},"[dbo].[ans_booking_space_options]":{"tableName":"[dbo].[ans_booking_space_options]"},"[dbo].[ans_booking_spots]":{"tableName":"[dbo].[ans_booking_spots]"},"[dbo].[ans_booking_notes]":{"tableName":"[dbo].[ans_booking_notes]"},"[dbo].[ans_booking_users]":{"tableName":"[dbo].[ans_booking_users]"},"[dbo].[ans_booking_reservations]":{"tableName":"[dbo].[ans_booking_reservations]"},"[dbo].[ans_bookings_reservations_view]":{"tableName":"[dbo].[ans_bookings_reservations_view]"},"[dbo].[ans_booking_spaces]":{"tableName":"[dbo].[ans_booking_spaces]"}}}},"apiTier":"Premium"},"5fe90133-1f9c-43c9-8b36-bb3554d8c66e":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://resourcestackdeploy.blob.core.windows.net/scripts/13276078.png","dataSources":["PowerApp-&gt;Executestoredprocedure(V2)2"],"dependencies":["176cda1e-8312-48fd-8ef3-a000c97b8647"],"dependents":[],"parameterHints":{"workflowName":{"value":"839ce4db-9f5e-441b-92a9-cd20800cc8c0"},"176cda1e-8312-48fd-8ef3-a000c97b8647":{"value":"shared_sql"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"256d9e7b-9bc8-4b6f-9331-9dccd5682d4e":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://resourcestackdeploy.blob.core.windows.net/scripts/13276078.png","dataSources":["PowerApp-&gt;UpdateSpaceCapacity"],"dependencies":["176cda1e-8312-48fd-8ef3-a000c97b8647"],"dependents":[],"parameterHints":{"workflowName":{"value":"3dd5bbdf-039d-49dc-bec1-c99cb8c819a1"},"176cda1e-8312-48fd-8ef3-a000c97b8647":{"value":"shared_sql"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"78db5468-cfea-4d2c-9eb9-66edd9c857f1":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/office365/icon_1.0.1360.2036.png","dataSources":["Office365Outlook"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"30c678e4-64ef-4c60-a495-2e42cd5e8b3c":{"id":"/providers/microsoft.powerapps/apis/shared_powerappsnotification","displayName":"Power Apps Notification","iconUri":"https://connectoricons-prod.azureedge.net/powerappsnotification/icon_1.0.1355.2023.png","dataSources":["PowerAppsNotification"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"sharedConnectionId":"df238c8c-f709-4899-8444-85f89e2616bc","bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"8d18c5d8-1b5d-4c22-ac57-7af167438d04":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://resourcestackdeploy.blob.core.windows.net/scripts/13276078.png","dataSources":["PowerApp-&gt;ReserveSpot"],"dependencies":["176cda1e-8312-48fd-8ef3-a000c97b8647"],"dependents":[],"parameterHints":{"workflowName":{"value":"8872857f-4960-488e-956e-e3477cf4b818"},"176cda1e-8312-48fd-8ef3-a000c97b8647":{"value":"shared_sql"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"75f7132e-c62c-4ec7-9fd8-cd78ecd5eda0":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://resourcestackdeploy.blob.core.windows.net/scripts/13276078.png","dataSources":["PowerApp-&gt;GetAvailableSpots"],"dependencies":["176cda1e-8312-48fd-8ef3-a000c97b8647"],"dependents":[],"parameterHints":{"workflowName":{"value":"d0447064-53db-4e93-be85-0f5e547f1f5a"},"176cda1e-8312-48fd-8ef3-a000c97b8647":{"value":"shared_sql"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+      <DatabaseReferences>{}</DatabaseReferences>
+      <CanConsumeAppPass>0</CanConsumeAppPass>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+      <BackgroundImageUri>/CanvasApps/ans_bookingmanagerapp_82878_BackgroundImageUri</BackgroundImageUri>
+      <DocumentUri>/CanvasApps/ans_bookingmanagerapp_82878_DocumentUri.msapp</DocumentUri>
+    </CanvasApp>
+    <CanvasApp>
+      <Name>ans_bookingapp_f4698</Name>
+      <AppVersion>2020-06-24T15:08:23Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>3.20063.13.0</CreatedByClientVersion>
+      <MinClientVersion>3.20063.13.0</MinClientVersion>
+      <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"465c15d4-c89b-4efd-b251-6351e1d1a68e","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.20063.13","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>rgba(104, 101, 171, 1)</BackgroundColor>
+      <DisplayName>Booking App</DisplayName>
+      <Description>ANS Booking Application</Description>
+      <CommitMessage xsi:nil="true"></CommitMessage>
+      <Publisher xsi:nil="true"></Publisher>
+      <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
+      <ConnectionReferences>{"176cda1e-8312-48fd-8ef3-a000c97b8647":{"id":"/providers/microsoft.powerapps/apis/shared_sql","displayName":"SQL Server","iconUri":"https://connectoricons-prod.azureedge.net/sql/icon_1.0.1356.2027.png","dataSources":["[dbo].[ans_booking_buildings]","[dbo].[ans_booking_cleaner]","[dbo].[ans_booking_space_options]","[dbo].[ans_booking_spaces]","[dbo].[ans_booking_spots]","[dbo].[ans_booking_notes]","[dbo].[ans_booking_users]","[dbo].[ans_bookings_reservations_view]","[dbo].[ans_booking_reservations]"],"dependencies":[],"dependents":["256d9e7b-9bc8-4b6f-9331-9dccd5682d4e","a0b66896-c464-475b-b78b-bbc3363869bd","2176283e-560b-411c-8e39-bf434c5cbd1b"],"parameterHints":{},"isOnPremiseConnection":false,"sharedConnectionId":"e69e14c5-fad2-487c-9533-487189c55364","bypassConsent":false,"dataSets":{"pp-booking-app-sql-srv.database.windows.net,pp-booking-app-sql-db":{"dataSources":{"[dbo].[ans_booking_buildings]":{"tableName":"[dbo].[ans_booking_buildings]"},"[dbo].[ans_booking_cleaner]":{"tableName":"[dbo].[ans_booking_cleaner]"},"[dbo].[ans_booking_space_options]":{"tableName":"[dbo].[ans_booking_space_options]"},"[dbo].[ans_booking_spaces]":{"tableName":"[dbo].[ans_booking_spaces]"},"[dbo].[ans_booking_spots]":{"tableName":"[dbo].[ans_booking_spots]"},"[dbo].[ans_booking_notes]":{"tableName":"[dbo].[ans_booking_notes]"},"[dbo].[ans_booking_users]":{"tableName":"[dbo].[ans_booking_users]"},"[dbo].[ans_bookings_reservations_view]":{"tableName":"[dbo].[ans_bookings_reservations_view]"},"[dbo].[ans_booking_reservations]":{"tableName":"[dbo].[ans_booking_reservations]"}}}},"apiTier":"Premium"},"256d9e7b-9bc8-4b6f-9331-9dccd5682d4e":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://resourcestackdeploy.blob.core.windows.net/scripts/13276078.png","dataSources":["PowerApp-&gt;UpdateSpaceCapacity"],"dependencies":["176cda1e-8312-48fd-8ef3-a000c97b8647"],"dependents":[],"parameterHints":{"workflowName":{"value":"e46f5999-00e3-48e7-8277-b130ca21f6d9"},"176cda1e-8312-48fd-8ef3-a000c97b8647":{"value":"shared_sql"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"acb3beb4-71a6-4dcc-99ff-ccfc163f3228":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/office365/icon_1.0.1360.2036.png","dataSources":["Office365Outlook"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"a0b66896-c464-475b-b78b-bbc3363869bd":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://resourcestackdeploy.blob.core.windows.net/scripts/13276078.png","dataSources":["PowerApp-&gt;ReserveSpot"],"dependencies":["176cda1e-8312-48fd-8ef3-a000c97b8647"],"dependents":[],"parameterHints":{"workflowName":{"value":"f5ee46cd-61ac-4bd0-a09d-d4f13775b435"},"176cda1e-8312-48fd-8ef3-a000c97b8647":{"value":"shared_sql"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"2176283e-560b-411c-8e39-bf434c5cbd1b":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://resourcestackdeploy.blob.core.windows.net/scripts/13276078.png","dataSources":["PowerApp-&gt;GetAvailableSpots"],"dependencies":["176cda1e-8312-48fd-8ef3-a000c97b8647"],"dependents":[],"parameterHints":{"workflowName":{"value":"da2b16ac-42e1-4a93-8261-36fd858d427b"},"176cda1e-8312-48fd-8ef3-a000c97b8647":{"value":"shared_sql"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+      <DatabaseReferences>{}</DatabaseReferences>
+      <CanConsumeAppPass>0</CanConsumeAppPass>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+      <BackgroundImageUri>/CanvasApps/ans_bookingapp_f4698_BackgroundImageUri</BackgroundImageUri>
+      <DocumentUri>/CanvasApps/ans_bookingapp_f4698_DocumentUri.msapp</DocumentUri>
+    </CanvasApp>
+  </CanvasApps>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
