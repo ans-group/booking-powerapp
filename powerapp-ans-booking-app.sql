@@ -39,6 +39,12 @@ ALTER TABLE [dbo].[ans_booking_notes] ADD PRIMARY KEY CLUSTERED
 )WITH (STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF) ON [PRIMARY]
 GO
 
+INSERT INTO [dbo].[ans_booking_notes] (note_name, text)
+VALUES ('terms', 'We want you and your colleagues to stay safe. Before using this application to book a workspace, you must accept our terms of use below.1. You must only use the workspace that you have booked. 2. You must only use the workspace during the booking period. 3. Social Distancing rules must be adhered to at all times.4. Wash your hands frequently or use a hand sanitizer provided.');  
+
+INSERT INTO [dbo].[ans_booking_notes] (note_name, text)
+VALUES ('booking_notes', 'We want you and your colleagues to stay safe, please follow the rules below.1. You must only use the workspace that you have booked. 2. You must only use the workspace during the booking period. 3. Social Distancing rules must be adhered to at all times.4. Wash your hands frequently or use a hand sanitizer provided.')
+
 -- Create Reservations Table
 SET ANSI_NULLS ON
 GO

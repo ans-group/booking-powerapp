@@ -1,0 +1,196 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows>
+    <Workflow WorkflowId="{58a76aa4-b8ac-ea11-a812-002248006440}" Name="PowerApp -&gt; Update Space Capacity">
+      <JsonFileName>/Workflows/PowerApp-UpdateSpaceCapacity-58A76AA4-B8AC-EA11-A812-002248006440.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="PowerApp -&gt; Update Space Capacity" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{62d2457b-1fae-ea11-a812-002248006440}" Name="PowerApp -&gt; Get Available Spots">
+      <JsonFileName>/Workflows/PowerApp-GetAvailableSpots-62D2457B-1FAE-EA11-A812-002248006440.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="PowerApp -&gt; Get Available Spots" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{9ad43cd7-81b1-ea11-a812-002248006440}" Name="PowerApp -&gt; Reserve Spot">
+      <JsonFileName>/Workflows/PowerApp-ReserveSpot-9AD43CD7-81B1-EA11-A812-002248006440.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="PowerApp -&gt; Reserve Spot" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{e87262fe-56b2-ea11-a812-002248006440}" Name="Recurrence -&gt; Update Spots Not Sanitised">
+      <JsonFileName>/Workflows/Recurrence-UpdateSpotsNotSanitised-E87262FE-56B2-EA11-A812-002248006440.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Recurrence -&gt; Update Spots Not Sanitised" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{1aaab143-f7b2-ea11-a812-002248006440}" Name="Recurrence -&gt; Check Spot Is Sanitised">
+      <JsonFileName>/Workflows/Recurrence-CheckSpotIsSanitised-1AAAB143-F7B2-EA11-A812-002248006440.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <BusinessProcessType>0</BusinessProcessType>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Recurrence -&gt; Check Spot Is Sanitised" />
+      </LocalizedNames>
+    </Workflow>
+  </Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <CanvasApps>
+    <CanvasApp>
+      <Name>ans_bookingmanagerapp_82878</Name>
+      <AppVersion>2020-06-25T13:18:03Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>3.20063.13.0</CreatedByClientVersion>
+      <MinClientVersion>3.20063.13.0</MinClientVersion>
+      <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"781264cf-1105-4a1f-8647-3b39288875d7","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.20063.13","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>rgba(104, 101, 171, 1)</BackgroundColor>
+      <DisplayName>Booking Manager App</DisplayName>
+      <Description>ANS Booking Application</Description>
+      <CommitMessage xsi:nil="true"></CommitMessage>
+      <Publisher xsi:nil="true"></Publisher>
+      <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
+      <ConnectionReferences></ConnectionReferences>
+      <DatabaseReferences>{}</DatabaseReferences>
+      <CanConsumeAppPass>0</CanConsumeAppPass>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+      <BackgroundImageUri>/CanvasApps/ans_bookingmanagerapp_82878_BackgroundImageUri</BackgroundImageUri>
+      <DocumentUri>/CanvasApps/ans_bookingmanagerapp_82878_DocumentUri.msapp</DocumentUri>
+    </CanvasApp>
+    <CanvasApp>
+      <Name>ans_bookingapp_f4698</Name>
+      <AppVersion>2020-06-25T13:19:22Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>3.20063.13.0</CreatedByClientVersion>
+      <MinClientVersion>3.20063.13.0</MinClientVersion>
+      <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"31194211-8bb0-4f88-89ae-8a9c634c902d","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.20063.13","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>rgba(104, 101, 171, 1)</BackgroundColor>
+      <DisplayName>Booking App</DisplayName>
+      <Description>ANS Booking Application</Description>
+      <CommitMessage xsi:nil="true"></CommitMessage>
+      <Publisher xsi:nil="true"></Publisher>
+      <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
+      <ConnectionReferences></ConnectionReferences>
+      <DatabaseReferences>{}</DatabaseReferences>
+      <CanConsumeAppPass>0</CanConsumeAppPass>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+      <BackgroundImageUri>/CanvasApps/ans_bookingapp_f4698_BackgroundImageUri</BackgroundImageUri>
+      <DocumentUri>/CanvasApps/ans_bookingapp_f4698_DocumentUri.msapp</DocumentUri>
+    </CanvasApp>
+  </CanvasApps>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
