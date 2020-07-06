@@ -74,7 +74,7 @@ The application is deployed into a PowerApps Environment, you can use an existin
 
 The PowerApp solution
 
-1. Download the Booking PowerApps solution zip file here: https://github.com/ans-group/booking-powerapp/raw/master/ansbookingapp_1_0_0_2.zip
+1. Download the Booking PowerApps solution zip file here: https://github.com/ans-group/booking-powerapp/raw/master/ansbookingapp_1_0_0_9.zip
 
 2. Open https://make.powerapps.com
 
